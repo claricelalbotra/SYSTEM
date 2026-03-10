@@ -99,7 +99,7 @@ def create(file, username):
     print("\nExpense Added!")
 
     with open(f"{username}.txt", 'a') as file:
-        file.write("\n======================================\n")
+        file.write("\n======================================HAHHAHAHHAHAHAHHAH\n")
 
         balance = 0
         file.write(f"Date:             {expense_record['Date(MM/DD/YYYY)']}\n")
