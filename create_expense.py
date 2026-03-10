@@ -14,7 +14,7 @@ def create(file,username):
     budget = float(input("Budget Today:     "))
     expense_record["Budget"] = budget
 
-    print("\nCategories:")
+    print("\nCategories (demo) :")
     print("[FOOD] [TRANSPORTATION] [EDUCATION] [ENTERTAINMENT]")
     print("[BILLS] [SHOPPING] [HEALTH] [OTHERS]")
 
@@ -120,3 +120,4 @@ def create(file, username):
             balance += remain
             file.write(f"\n You saved P{balance} today!")
         file.write("\n======================================\n")
+
